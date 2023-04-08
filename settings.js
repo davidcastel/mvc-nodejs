@@ -9,13 +9,13 @@ module.exports = {
     // Environment-Dependent Settings
     development: {
         db: {
-            dialect: "sqlite3",
+            dialect: "sqlite",
             storage: ":memory:"
         }
     },
     production: {
         db: {
-            dialect: "sqlite3",
+            dialect: "sqlite",
             storage: "db/database.sqlite3"
         }
     }

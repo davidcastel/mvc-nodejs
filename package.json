@@ -11,8 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "@hapi/hapi": "^18.4.0",
+    "@hapi/vision": "^7.0.1",
     "dotenv": "^16.0.3",
     "moment": "^2.29.4",
+    "pug": "^3.0.2",
     "sequelize": "^6.30.0",
     "slug": "^8.2.2",
     "sqlite3": "^5.1.6"

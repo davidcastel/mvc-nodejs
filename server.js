@@ -10,7 +10,7 @@ const Path = require("path");
 const init = async () => {
   const server = new Hapi.Server({ port: Settings.port });
   
-  await server.register([require("@hapi/vision")]);
+  await server.register([require("@hapi/vision")]), require("@hapi/inert");
 
   server.views({
     engines: { pug: require("pug") },
